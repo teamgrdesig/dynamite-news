@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamite News</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <!-- header code starts here -->
+     <header class="header_main">
+        <div class="container">
+            <div class="header_main__logo">
+                <a href="index.html">
+                    <img width="116" height="76" src="images/dnlogo.svg" alt="logo">
+                </a>
+            </div>
+            <nav class="header_main__nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">National</a></li>
+                    <li><a href="#">International</a></li>
+                    <li><a href="#">Uttar Pradesh</a></li>
+                    <li><a href="#">Maha Kumbh</a></li>
+                    <li><a href="#">Election Special</a></li>
+                    <li><a href="#">Ek Mulaqat</a></li>
+                </ul>
+            </nav>
+            <div class="header_main__rhs">
+                <div class="header_main__langselect">
+                    <select name="" id="">
+                        <option value="हिन्दी">हिन्दी</option>
+                        <option value="English">English</option>
+                    </select>
+                </div>
+                <div class="header_main__notifications">
+                    <svg class="bell_icon">
+                        <use xlink:href="#bell-icon"></use>
+                    </svg>
+                </div>
+                <div class="header_main__search">
+                    <div class="header_main__search__input">
+                        <svg class="search_icon">
+                            <use xlink:href="#search-icon"></use>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </header>
+    <!-- header code ends here -->
+
+    <!-- icons list starts here -->
+    <svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+        <symbol id="bell-icon" viewBox="0 0 24 25">
+            <mask id="mask0_174_2990" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="25">
+                <rect y="0.5" width="24" height="24" fill="#D9D9D9"/>
+            </mask>
+            <g mask="url(#mask0_174_2990)">
+                <path d="M12 22.5C11.45 22.5 10.9792 22.3042 10.5875 21.9125C10.1958 21.5208 10 21.05 10 20.5H14C14 21.05 13.8042 21.5208 13.4125 21.9125C13.0208 22.3042 12.55 22.5 12 22.5ZM4 19.5V17.5H6V10.5C6 9.11667 6.41667 7.8875 7.25 6.8125C8.08333 5.7375 9.16667 5.03333 10.5 4.7V4C10.5 3.58333 10.6458 3.22917 10.9375 2.9375C11.2292 2.64583 11.5833 2.5 12 2.5C12.4167 2.5 12.7708 2.64583 13.0625 2.9375C13.3542 3.22917 13.5 3.58333 13.5 4V4.325C13.3167 4.69167 13.1833 5.06667 13.1 5.45C13.0167 5.83333 12.9833 6.225 13 6.625C12.8333 6.59167 12.6708 6.5625 12.5125 6.5375C12.3542 6.5125 12.1833 6.5 12 6.5C10.9 6.5 9.95833 6.89167 9.175 7.675C8.39167 8.45833 8 9.4 8 10.5V17.5H16V11.075C16.3 11.2083 16.6208 11.3125 16.9625 11.3875C17.3042 11.4625 17.65 11.5 18 11.5V17.5H20V19.5H4ZM18 9.5C17.1667 9.5 16.4583 9.20833 15.875 8.625C15.2917 8.04167 15 7.33333 15 6.5C15 5.66667 15.2917 4.95833 15.875 4.375C16.4583 3.79167 17.1667 3.5 18 3.5C18.8333 3.5 19.5417 3.79167 20.125 4.375C20.7083 4.95833 21 5.66667 21 6.5C21 7.33333 20.7083 8.04167 20.125 8.625C19.5417 9.20833 18.8333 9.5 18 9.5Z" fill="white"/>
+            </g>
+        </symbol>
+        <symbol id="search-icon" viewBox="0 0 24 25">
+            <mask id="mask0_174_2993" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="25">
+                <rect y="0.5" width="24" height="24" fill="#D9D9D9"/>
+            </mask>
+            <g mask="url(#mask0_174_2993)">
+                <path d="M19.6 21.5L13.3 15.2C12.8 15.6 12.225 15.9167 11.575 16.15C10.925 16.3833 10.2333 16.5 9.5 16.5C7.68333 16.5 6.14583 15.8708 4.8875 14.6125C3.62917 13.3542 3 11.8167 3 10C3 8.18333 3.62917 6.64583 4.8875 5.3875C6.14583 4.12917 7.68333 3.5 9.5 3.5C11.3167 3.5 12.8542 4.12917 14.1125 5.3875C15.3708 6.64583 16 8.18333 16 10C16 10.7333 15.8833 11.425 15.65 12.075C15.4167 12.725 15.1 13.3 14.7 13.8L21 20.1L19.6 21.5ZM9.5 14.5C10.75 14.5 11.8125 14.0625 12.6875 13.1875C13.5625 12.3125 14 11.25 14 10C14 8.75 13.5625 7.6875 12.6875 6.8125C11.8125 5.9375 10.75 5.5 9.5 5.5C8.25 5.5 7.1875 5.9375 6.3125 6.8125C5.4375 7.6875 5 8.75 5 10C5 11.25 5.4375 12.3125 6.3125 13.1875C7.1875 14.0625 8.25 14.5 9.5 14.5Z" fill="white"/>
+            </g>
+        </symbol>
+    </svg>
+    <!-- icons list ends here -->
+</body>
+</html>
