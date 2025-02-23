@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/main.css">
+    <script src="js/common.js"></script>
 </head>
 <body>
     <!-- header code starts here -->
@@ -47,7 +48,11 @@
                         <svg class="search_icon">
                             <use xlink:href="#search-icon"></use>
                         </svg>
+                        <!-- <input type="text" class="input-search" placeholder="Type to Search..."> -->
                     </div>
+                </div>
+                <div id="hamburger" class="hamburger">
+                    <svg><use href="#menu-icon"></use></svg>
                 </div>
             </div>
         </div>
@@ -115,6 +120,75 @@
             </div>
         </div>
      </div>
+     <div id="bodyoverlay"></div>
+     <div id="sidemenu" class="menu-sidebar">
+        <div class="container">
+            <div class="sidemenu-head">
+                <div class="social_links">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <svg class="wh_icon">
+                                    <use xlink:href="#wh-icon"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <svg class="fb_icon">
+                                    <use xlink:href="#fb-icon"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <svg class="insta_icon
+                                ">
+                                    <use xlink:href="#insta-icon"></use>    
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <svg class="x_icon
+                                ">
+                                    <use xlink:href="#x-icon"></use>    
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <svg class="yt_icon
+                                ">
+                                    <use xlink:href="#yt-icon"></use>    
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <svg class="teleg_icon
+                                ">
+                                    <use xlink:href="#teleg-icon"></use>    
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="close_nav">
+                    <svg><use href="#close-icon"></use></svg>
+                </div>
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">National</a></li>
+                <li><a href="#">International</a></li>
+                <li><a href="#">Uttar Pradesh</a></li>
+                <li><a href="#">Maha Kumbh</a></li>
+                <li><a href="#">Election Special</a></li>
+                <li><a href="#">Ek Mulaqat</a></li>
+            </ul>
+        </div>
+    </div>
     <!-- header code ends here -->
 
     <!-- main code starts here -->
@@ -1181,6 +1255,18 @@
         <symbol viewBox="0 0 37 37" id="photo-icon">
             <rect width="37" height="37" rx="18.5" fill="white" fill-opacity="0.74"/>
             <path d="M25.2352 14.8992V11H9V24.1008H12.7648V28H29V14.8992H25.2352ZM10.8823 22.1518L10.8825 12.9496H23.353V14.8993H12.7649V22.1518L10.8823 22.1518ZM27.1176 26.051H14.647L14.6472 16.8489H27.1177L27.1176 26.051Z" fill="#306FBE"/>
+        </symbol>
+        <symbol id="menu-icon" viewBox="0 0 24 25">
+            <mask id="mask0_46_142" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="25">
+                <rect y="0.811127" width="24" height="24"/>
+            </mask>
+            <g mask="url(#mask0_46_142)">
+                <path d="M3.5 18.4456V16.9459H20.5V18.4456H3.5ZM3.5 13.5611V12.0611H20.5V13.5611H3.5ZM3.5 8.67639V7.17664H20.5V8.67639H3.5Z"/>
+            </g>
+        </symbol>
+        <symbol viewBox="0 0 25 24" id="close-icon">
+            <path d="M18.5 6L6.5 18" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M6.5 6L18.5 18" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
         </symbol>
     </svg>
     <!-- icons list ends here -->

@@ -14,6 +14,7 @@
 .homepagetopnews__left::after,.homepagetopnews__left::before,.homepagetopnews__mid::after,.homepagetopnews__mid::before,.homepagetopnews__right::after,.homepagetopnews__right::before {content: "";position: absolute;left: 0;width: 100%; border-bottom: 0.5px solid #6C7073;}
 .homepagetopnews__left::after,.homepagetopnews__mid::after,.homepagetopnews__right::after {bottom: 2px;}
 .homepagetopnews__left::before,.homepagetopnews__mid::before,.homepagetopnews__right::before {bottom: -4px;}
+.homepagetopnews__right .adBody{height: 280px;}
 .homepagetopnews__right .newslist_wrapper li {margin-bottom: 15px;padding-bottom: 15px;border-bottom: 0.5px solid #6C7073;list-style:none;position: relative;padding-left:15px;}
 .homepagetopnews__right .newslist_wrapper li::before{content:'';width:9px;height:9px;background-color: #0C71CC;border-radius: 9px;position:absolute;left:0;top:7px}
 .homepagetopnews__right .newslist_wrapper li:last-child{border-bottom: none;}
@@ -50,7 +51,7 @@
 .webstory_widget .webstory_widget__content .webstory_widget__thumb img{display: block;width: 100%;}
 .webstory_widget .webstory_widget__content .webstory_widget__title{padding:15px;}
 .webstory_widget .webstory_widget__content .webstory_widget__title .h3{font-size: 16px;line-height: 22px;font-weight: 600;color:#151D26;}
-.videogallery_widget{margin: 0 -15px 30px -15px;background-color: #151D26;padding: 20px 15px;}
+.videogallery_widget{margin: 0 -10px 30px -10px;background-color: #151D26;padding: 20px 10px;}
 .videogallery_widget .heading .h2 a{color:#fff}
 .videogallery_widget .heading .view-more{color:#fff}
 .videogallery_widget .heading .view-more svg{fill:#fff}
@@ -87,7 +88,7 @@
 .twocolnews_wrapper .twocolnews__smallstory__thumb{order:2}
 .twocolnews_wrapper .twocolnews__smallstory__thumb img{display: block;width: 100%;aspect-ratio: 16/9;}
 .twocolnews_wrapper .twocolnews__smallstory__title .h3{font-size: 16px;line-height: 22px;font-weight: 300;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 3;-webkit-box-orient: vertical;}
-.photogallery_widget{margin: 0 -15px;background: linear-gradient(90deg, #0153A7 -14.35%, #000000 189.11%);padding: 20px 15px;}
+.photogallery_widget{margin: 0 -10px;background: linear-gradient(90deg, #0153A7 -14.35%, #000000 189.11%);padding: 20px 10px;}
 .photogallery_widget .heading .h2 a{color:#fff}
 .photogallery_widget .heading .view-more{color:#fff}
 .photogallery_widget .heading .view-more svg{fill:#fff}
@@ -103,3 +104,40 @@
 .photogallery_widget .photogallery_widget__mid .photogallery_widget__content:first-child{grid-column: 1/-1;}
 .photogallery_widget .photogallery_widget__mid .photogallery_widget__content:first-child .photogallery_widget__title .h3{font-size: 28px;line-height: 39px;font-weight: 400;color: #fff;-webkit-line-clamp:3}
 .photogallery_widget .photogallery_widget__mid .photogallery_widget__content:first-child .photogallery_widget__thumb{margin-bottom:5px;}
+@media(max-width:768px) {
+    .homepagetopnews__grid{grid-template-columns:1fr;gap:0}
+    .homepagetopnews__left,.homepagetopnews__mid{border-bottom: none;}
+    .homepagetopnews__left::after,.homepagetopnews__left::before,.homepagetopnews__mid::after,.homepagetopnews__mid::before{content: none;}
+    .homepagetopnews__mid{order:1}
+    .homepagetopnews__left{order:2}
+    .homepagetopnews__right{order:3}
+    .leadsmallnews_wrapper{grid-template-columns: 1fr;gap:0}
+    .leadsmallnews_wrapper .leadsmallnews__content{margin-bottom: 15px;padding-bottom: 15px;border-bottom: 0.5px solid #6C7073;}
+    .leadsmallnews_wrapper .leadsmallnews__content a{display: grid;grid-template-columns: 133px 1fr;gap:15px}
+    .leadsmallnews_wrapper .leadsmallnews__content .leadsmallnews__title .h3{font-size: 16px;line-height: 22px;font-weight: 300;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 3;-webkit-box-orient: vertical;}
+    .singlecatnews_wrapper .singlecatnews_grid{grid-template-columns:1fr;}
+    .singlecatnews_wrapper .singlecatnews_big{margin-bottom:20px;}
+    .singlecatnews_wrapper .singlecatnews_small{margin-left:0;padding-left:0;border-left: none;}
+    .webstory_widget{margin:0 -10px 30px -10px;border: 0px solid transparent;border-bottom: 2px solid #0153A7;}
+    .webstory_widget .webstory_widget__grid{display: flex;flex-wrap: nowrap;overflow-x: auto;-webkit-overflow-scrolling: touch;margin-right:-20px;}
+    .webstory_widget .webstory_widget__grid::-webkit-scrollbar{display:none;}
+    .webstory_widget .webstory_widget__content{flex: 0 0 auto;width: 80%;border: 1px solid #6C7073;}
+    .webstory_widget .webstory_widget__content:last-child{margin-right:20px;}
+    .videogallery_widget .videogallery_widget__grid{grid-template-columns: repeat(2, 1fr);}
+    .videogallery_widget .videogallery_widget__content .videogallery_widget__title .h3{overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 3;-webkit-box-orient: vertical;}
+    .threecolnews_wrapper{grid-template-columns:1fr;gap:0}
+    .twocolnews_wrapper{grid-template-columns:1fr;gap:0}
+    .twocolnews_wrapper .twocolnews__smallstory{grid-template-columns:1fr;column-gap:0;}
+    .twocolnews_wrapper .twocolnews__smallstory__content:nth-last-of-type(2){border-bottom: 0.5px solid #6C7073;}
+    .photogallery_widget .photogallery_widget__grid{grid-template-columns:1fr;gap:0}
+    .photogallery_widget .photogallery_widget__mid{order:1}
+    .photogallery_widget .photogallery_widget__left{order:2}
+    .photogallery_widget .photogallery_widget__right{order:3}
+    .photogallery_widget .photogallery_widget__mid .photogallery_widget__content{margin-bottom:20px;}
+    .photogallery_widget .photogallery_widget__mid .photogallery_widget__content .photogallery_widget__title .h3 {-webkit-line-clamp: 3;}
+    .photogallery_widget .photogallery_widget__left .photogallery_widget__content a,.photogallery_widget .photogallery_widget__right .photogallery_widget__content a{display: grid;grid-template-columns: 133px 1fr;gap: 15px;}
+    .photogallery_widget .photogallery_widget__left .photogallery_widget__thumb,.photogallery_widget .photogallery_widget__right .photogallery_widget__thumb{margin-bottom:0;}
+    .photogallery_widget .photo_icon svg {width:28px;height:28px;}
+    .photogallery_widget .photogallery_widget__mid .photogallery_widget__content:first-child .photo_icon svg {width:43px;height:43px}
+    .photogallery_widget .photogallery_widget__content .photogallery_widget__title .h3{-webkit-line-clamp: 3;}
+}
