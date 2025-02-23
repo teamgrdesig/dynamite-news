@@ -7,8 +7,8 @@ img{height:inherit;max-width:100%;}
 .container{width:100%;max-width:1320px;margin:0 auto;padding:0 10px}
 .adBody{text-align:center;clear:both;margin-bottom:20px;position:relative;height:120px;padding-top:2px;z-index:0;background:#fff;}
 .adBody:before{content:"ADVERTISEMENT";font-size:10px;line-height:16px;display:block;color:#949494}
-.header_main{background-color:#0C71CC;position: fixed;width: 100%;top:0;left:0;z-index: 1;}
-.header_main .container{display:flex;justify-content:space-between;align-items:center;height:90px;}
+.header_main{background-color:#0C71CC;position: fixed;width: 100%;top:-1px;left:0;z-index: 1;}
+.header_main .container{display:flex;justify-content:space-between;align-items:center;height:91px;}
 .header_main__logo img{width:116px;display: block;margin-right: 20px;}
 .header_main__nav{display:flex;align-items:center;}
 .header_main__nav ul{display:flex;align-items:center;}
@@ -44,7 +44,7 @@ img{height:inherit;max-width:100%;}
     .showMobileOnly{display:block;}
     .adBody{margin:0 -10px 20px -10px;height:280px;}
     .header_main__nav{display: none;}
-    .header_main .container{height:75px}
+    .header_main .container{height:76px}
     .header_main__logo img{max-width: 90px;}
     .header_navbar__bottom{margin-top: 75px;}
     .header_navbar__bottom .social_links{display: none;}
