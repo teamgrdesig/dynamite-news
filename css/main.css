@@ -60,8 +60,8 @@
 .videogallery_widget .videogallery_widget__content .videogallery_widget__thumb img{display: block;width: 100%;display: block;aspect-ratio: 16/9;}
 .videogallery_widget .play_icon {background: rgba(0, 0, 0, 0.74);width: 60px;height: 40px;display: flex;justify-content: center;align-items: center;position: absolute;right: 10px;bottom: 10px;}
 .videogallery_widget .play_icon svg {width: 24px;height: 24px;display: block;}
-.videogallery_widget .videogallery_widget__content .videogallery_widget__title .h3{font-size: 16px;line-height: 22px;font-weight: 600;color: #fff;}
-.videogallery_widget .videogallery_widget__content:first-child .videogallery_widget__title .h3{font-size: 28px;line-height: 39px;font-weight: 500;color: #fff;}
+.videogallery_widget .videogallery_widget__content .videogallery_widget__title .h3{font-size: 16px;line-height: 22px;font-weight: 500;color: #fff;}
+.videogallery_widget .videogallery_widget__content:first-child .videogallery_widget__title .h3{font-size: 28px;line-height: 39px;font-weight: 400;color: #fff;}
 .threecolnews_wrapper{display:grid;grid-template-columns:repeat(3, 1fr);gap:30px;margin-bottom:30px;position: relative;border-bottom: 0.5px solid #6C7073;}
 .threecolnews_wrapper::after,.threecolnews_wrapper::before {content: "";position: absolute;left: 0;width: 100%; border-bottom: 0.5px solid #6C7073;}
 .threecolnews_wrapper::after {bottom: 2px;}
@@ -101,5 +101,5 @@
 .photogallery_widget .photogallery_widget__mid{display: grid;grid-template-columns: repeat(2, 1fr);column-gap:15px;}
 .photogallery_widget .photogallery_widget__mid .photogallery_widget__content{margin-bottom:0;}
 .photogallery_widget .photogallery_widget__mid .photogallery_widget__content:first-child{grid-column: 1/-1;}
-.photogallery_widget .photogallery_widget__mid .photogallery_widget__content:first-child .photogallery_widget__title .h3{font-size: 28px;line-height: 39px;font-weight: 500;color: #fff;-webkit-line-clamp:3}
+.photogallery_widget .photogallery_widget__mid .photogallery_widget__content:first-child .photogallery_widget__title .h3{font-size: 28px;line-height: 39px;font-weight: 400;color: #fff;-webkit-line-clamp:3}
 .photogallery_widget .photogallery_widget__mid .photogallery_widget__content:first-child .photogallery_widget__thumb{margin-bottom:5px;}
