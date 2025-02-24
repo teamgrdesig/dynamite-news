@@ -22,7 +22,7 @@ img{height:inherit;max-width:100%;}
 .header_main__langselect select::-ms-expand {display: none;}
 .header_main__notifications .bell_icon{width: 24px;height: 24px;display: block;margin-left: 15px;}
 .header_main__search .search_icon {width: 24px;height: 24px;display: block;margin-left: 15px;cursor: pointer;}
-.header_navbar__bottom{background-color:#151D26;margin: 90px 0 20px 0;}
+.header_navbar__bottom{background-color:#151D26;margin: 90px 0 10px 0;}
 .header_navbar__bottom .container{display:flex;justify-content:space-between;align-items:center;height: 49px;}
 .header_navbar__bottom .social_links ul{display:flex;justify-content: space-between;align-items:center;width:197px;}
 .header_navbar__bottom .social_links li{list-style:none;width:26px;height:26px}
@@ -44,9 +44,9 @@ img{height:inherit;max-width:100%;}
     .showMobileOnly{display:block;}
     .adBody{margin:0 -10px 20px -10px;height:280px;}
     .header_main__nav{display: none;}
-    .header_main .container{height:76px}
-    .header_main__logo img{max-width: 90px;}
-    .header_navbar__bottom{margin-top: 75px;}
+    .header_main .container{height:60px}
+    .header_main__logo img{max-width: 70px;}
+    .header_navbar__bottom{margin-top: 59px;}
     .header_navbar__bottom .social_links{display: none;}
     .header_navbar__bottom .trending_navbar{width:100%;justify-content: flex-start;flex-wrap: nowrap;overflow-x: auto;-webkit-overflow-scrolling: touch;}
     .header_navbar__bottom .trending_navbar::-webkit-scrollbar{display:none;}
