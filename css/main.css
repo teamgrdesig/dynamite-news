@@ -105,7 +105,7 @@
 .photogallery_widget .photogallery_widget__mid .photogallery_widget__content:first-child{grid-column: 1/-1;}
 .photogallery_widget .photogallery_widget__mid .photogallery_widget__content:first-child .photogallery_widget__title .h3{font-size: 28px;line-height: 39px;font-weight: 400;color: #fff;-webkit-line-clamp:3}
 .photogallery_widget .photogallery_widget__mid .photogallery_widget__content:first-child .photogallery_widget__thumb{margin-bottom:5px;}
-.sideColumn_Layout{display:flex;justify-content: space-between;flex-wrap: wrap;}
+.sideColumn_Layout{display:flex;justify-content: space-between;flex-wrap: wrap;margin-bottom:20px;}
 .sideColumn_Layout .rightSide_Col{width:423px;margin-left: 15px;padding-left: 15px;border-left: 0.5px solid #6C7073;}
 .sideColumn_Layout .leftSide_Col{width:calc(100% - 438px);}
 .rightSide_Col .adBody{height:280px;}
@@ -159,6 +159,23 @@
 .videogalcateg__wrapper .singlecatnews_wrapper::after {bottom: 2px;}
 .videogalcateg__wrapper .singlecatnews_wrapper::before {bottom: -4px;}
 .videogalcateg__wrapper .threecolnews__thumb{position: relative;}
+.categbignews__grid{background-color: #f4f4f4;padding:15px;margin-bottom: 20px;}
+.categbignews__grid a{display:grid;grid-template-columns: 367px 1fr;gap:20px}
+.categbignews__grid .categbignews__thumb img{display: block;width: 100%;aspect-ratio: 16/9;}
+.categbignews__grid .categbignews__title .h3{font-size: 28px;line-height: 40px;font-weight: 400;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 4;-webkit-box-orient: vertical;}
+.categcommonnews__content{margin-bottom: 15px;padding-bottom: 15px;border-bottom: 0.5px solid #6C7073;}
+.categcommonnews__content a{display:grid;grid-template-columns: 293px 1fr;gap:20px}
+.categcommonnews__content .categcommonnews__thumb img{display: block;width: 100%;aspect-ratio: 16/9;}
+.categcommonnews__content .categcommonnews__title .h3{font-size: 20px;line-height: 28px;font-weight: 400;}
+.categcommonnews__content .categcommonnews__title p{font-size: 16px;line-height:23px;font-weight:300;margin-top:10px;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 3;-webkit-box-orient: vertical;}
+.categcommonnews__content .categcommonnews__title .tag {font-size: 16px;line-height: 23px;font-weight: 300;color:#0C71CC;display: block;margin-bottom:10px;}
+.authordetails__content{background: linear-gradient(90deg, #F4F4F4 47.55%, #FFFFFF 100%);padding:15px;margin-bottom:20px;}
+.authordetails__grid{display:grid;grid-template-columns: 117px 1fr;gap:20px;}
+.authordetails__thumb img{display: block;width: 100%;aspect-ratio: 1/1;border-radius:100%;}
+.authordetails__title .h2 {font-size: 28px;line-height: 40px;font-weight:400;margin-bottom:10px;}
+.authordetails__title .designation{font-size: 16px;line-height: 23px;font-weight: 300;margin-bottom:10px;}
+.authordetails__title .social_links{display:flex;align-items: center;justify-content:flex-start;}
+.authordetails__title .social_links svg{width: 28px;height: 28px;display: block;margin-right:10px;}
 @media(max-width:768px) {
     .homepagetopnews__grid{grid-template-columns:1fr;gap:0}
     .homepagetopnews__left,.homepagetopnews__mid{border-bottom: none;}
@@ -210,4 +227,14 @@
     .relatednewswidget__content{flex: 0 0 auto;width: 65%;}
     .relatednewswidget__content:last-child{margin-right:10px;}
     .photogalcateg__grid{grid-template-columns: repeat(2, 1fr);gap:10px;margin-bottom:20px;padding-bottom:20px;}
+    .categbignews__grid{margin: 0 -10px 20px -10px;padding: 10px;}
+    .categbignews__grid a{grid-template-columns: 1fr;gap:10px}
+    .categcommonnews__content a{grid-template-columns: 133px 1fr;gap:15px}
+    .categcommonnews__content .categcommonnews__title .h3{font-size: 16px;line-height: 22px;font-weight: 300;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 3;-webkit-box-orient: vertical;}
+    .categcommonnews__content .categcommonnews__title p{display: none;}
+    .authordetails__content{margin: 0 -10px 20px -10px;background:#f4f4f4;}
+    .authordetails__grid{grid-template-columns: 1fr;justify-items: center;gap:10px}
+    .authordetails__title .h2{text-align: center;}
+    .authordetails__title .designation{text-align: center;}
+    .authordetails__title .social_links svg{margin:0 5px;}
 }

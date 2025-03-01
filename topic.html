@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamite News</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/common.js"></script>
+</head>
+<body>
+    <!-- header code starts here -->
+     <header class="header_main">
+        <div class="container">
+            <div class="header_main__logo">
+                <a href="index.html">
+                    <img width="116" height="76" src="images/dnlogo.svg" alt="logo">
+                </a>
+            </div>
+            <nav class="header_main__nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">National</a></li>
+                    <li><a href="#">International</a></li>
+                    <li><a href="#">Uttar Pradesh</a></li>
+                    <li><a href="#">Maha Kumbh</a></li>
+                    <li><a href="#">Election Special</a></li>
+                    <li><a href="#">Ek Mulaqat</a></li>
+                </ul>
+            </nav>
+            <div class="header_main__rhs">
+                <div class="header_main__langselect">
+                    <select name="" id="">
+                        <option value="हिन्दी">हिन्दी</option>
+                        <option value="English">English</option>
+                    </select>
+                </div>
+                <div class="header_main__notifications">
+                    <svg class="bell_icon">
+                        <use xlink:href="#bell-icon"></use>
+                    </svg>
+                </div>
+                <div class="header_main__search">
+                    <div class="header_main__search__input">
+                        <svg class="search_icon">
+                            <use xlink:href="#search-icon"></use>
+                        </svg>
+                        <!-- <input type="text" class="input-search" placeholder="Type to Search..."> -->
+                    </div>
+                </div>
+                <div id="hamburger" class="hamburger">
+                    <svg><use href="#menu-icon"></use></svg>
+                </div>
+            </div>
+        </div>
+     </header>
+     <div class="header_navbar__bottom">
+        <div class="container">
+            <div class="trending_navbar">
+                <a href="#">Bengaluru 2040</a>
+                <a href="#">News Shots</a>
+                <a href="#">Explainers</a>
+                <a href="#">Science</a>
+                <a href="#">Science</a>
+                <a href="#">Trending</a>
+                <a href="#">Mahakumbh</a>
+            </div>
+            <div class="social_links">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <svg class="wh_icon">
+                                <use xlink:href="#wh-icon"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <svg class="fb_icon">
+                                <use xlink:href="#fb-icon"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <svg class="insta_icon
+                            ">
+                                <use xlink:href="#insta-icon"></use>    
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <svg class="x_icon
+                            ">
+                                <use xlink:href="#x-icon"></use>    
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <svg class="yt_icon
+                            ">
+                                <use xlink:href="#yt-icon"></use>    
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <svg class="teleg_icon
+                            ">
+                                <use xlink:href="#teleg-icon"></use>    
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+     </div>
+     <div id="bodyoverlay"></div>
+     <div id="sidemenu" class="menu-sidebar">
+        <div class="container">
+            <div class="sidemenu-head">
+                <div class="social_links">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <svg class="wh_icon">
+                                    <use xlink:href="#wh-icon"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <svg class="fb_icon">
+                                    <use xlink:href="#fb-icon"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <svg class="insta_icon
+                                ">
+                                    <use xlink:href="#insta-icon"></use>    
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <svg class="x_icon
+                                ">
+                                    <use xlink:href="#x-icon"></use>    
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <svg class="yt_icon
+                                ">
+                                    <use xlink:href="#yt-icon"></use>    
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <svg class="teleg_icon
+                                ">
+                                    <use xlink:href="#teleg-icon"></use>    
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="close_nav">
+                    <svg><use href="#close-icon"></use></svg>
+                </div>
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">National</a></li>
+                <li><a href="#">International</a></li>
+                <li><a href="#">Uttar Pradesh</a></li>
+                <li><a href="#">Maha Kumbh</a></li>
+                <li><a href="#">Election Special</a></li>
+                <li><a href="#">Ek Mulaqat</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- header code ends here -->
+
+    <!-- main code starts here -->
+    <div class="container">
+        <ul class="breadcrumb">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Topic</a></li>
+            <li>Pushpa 2</li>
+        </ul>
+        <div class="sideColumn_Layout">
+            <div class="leftSide_Col">
+                <div class="categbignews__grid">
+                    <a href="#">
+                        <div class="categbignews__thumb">
+                            <img width="367" height="207" src="images/dummy/image-70.jpg" alt="">
+                        </div>
+                        <div class="categbignews__title">
+                            <div class="h3">Pushpa 2: The Rule is a 2024 Indian Telugu-language action drama film written and directed by Sukumar and produced by Mythri Movie Makers in association</div>
+                        </div>
+                    </a>
+                </div>
+                <div>
+                    <div class="categcommonnews__content">
+                        <a href="#">
+                            <div class="categcommonnews__thumb">
+                                <img width="293" height="165" src="images/dummy/image-71.jpg" alt="">
+                            </div>
+                            <div class="categcommonnews__title">
+                                <span class="tag">Pushpa 2</span>
+                                <div class="h3">Professor who praised Nathuram Godse appointed as dean of planning at NIT Calicut</div>
+                                <p>Shaija A, a professor at NIT Calicut, has been appointed Dean of Planning and Development, sparking widespread controversy. This follows her prior arrest and charges for praising Nathuram Godse, Mahatma Gandhi's assassin, on social media.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="categcommonnews__content">
+                        <a href="#">
+                            <div class="categcommonnews__thumb">
+                                <img width="293" height="165" src="images/dummy/image-72.jpg" alt="">
+                            </div>
+                            <div class="categcommonnews__title">
+                                <span class="tag">Pushpa 2</span>
+                                <div class="h3">Nitish Kumar expands Cabinet ahead of polls in Bihar, inducts 7 new faces from BJP</div>
+                                <p>Bihar CM Nitish Kumar expanded his cabinet, inducting seven BJP MLAs as ministers. The move follows BJP state president Dilip Jaiswal’s resignation. This marks the second expansion since Nitish rejoined NDA in January 2024, breaking ties with the Mahagathbandhan.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="categcommonnews__content">
+                        <a href="#">
+                            <div class="categcommonnews__thumb">
+                                <img width="293" height="165" src="images/dummy/image-73.jpg" alt="">
+                            </div>
+                            <div class="categcommonnews__title">
+                                <span class="tag">Pushpa 2</span>
+                                <div class="h3">‘Family politics and corruption will end in Tamil Nadu’: Amit Shah slams DMK</div>
+                                <p>Union Home Minister Amit Shah apologized for not speaking Tamil during his Coimbatore address amid the Hindi imposition row. He criticized the DMK as 'anti-national,' vowed BJP's victory in Tamil Nadu in 2026, and assured that the state wouldn't lose Lok Sabha seats in delimitation.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="categcommonnews__content">
+                        <a href="#">
+                            <div class="categcommonnews__thumb">
+                                <img width="293" height="165" src="images/dummy/image-74.jpg" alt="">
+                            </div>
+                            <div class="categcommonnews__title">
+                                <span class="tag">Pushpa 2</span>
+                                <div class="h3">Professor who praised Nathuram Godse appointed as dean of planning at NIT Calicut</div>
+                                <p>Shaija A, a professor at NIT Calicut, has been appointed Dean of Planning and Development, sparking widespread controversy. This follows her prior arrest and charges for praising Nathuram Godse, Mahatma Gandhi's assassin, on social media.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="categcommonnews__content">
+                        <a href="#">
+                            <div class="categcommonnews__thumb">
+                                <img width="293" height="165" src="images/dummy/image-75.jpg" alt="">
+                            </div>
+                            <div class="categcommonnews__title">
+                                <span class="tag">Pushpa 2</span>
+                                <div class="h3">Professor who praised Nathuram Godse appointed as dean of planning at NIT Calicut</div>
+                                <p>Shaija A, a professor at NIT Calicut, has been appointed Dean of Planning and Development, sparking widespread controversy. This follows her prior arrest and charges for praising Nathuram Godse, Mahatma Gandhi's assassin, on social media.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="categcommonnews__content">
+                        <a href="#">
+                            <div class="categcommonnews__thumb">
+                                <img width="293" height="165" src="images/dummy/image-76.jpg" alt="">
+                            </div>
+                            <div class="categcommonnews__title">
+                                <span class="tag">Pushpa 2</span>
+                                <div class="h3">Professor who praised Nathuram Godse appointed as dean of planning at NIT Calicut</div>
+                                <p>Shaija A, a professor at NIT Calicut, has been appointed Dean of Planning and Development, sparking widespread controversy. This follows her prior arrest and charges for praising Nathuram Godse, Mahatma Gandhi's assassin, on social media.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="categcommonnews__content">
+                        <a href="#">
+                            <div class="categcommonnews__thumb">
+                                <img width="293" height="165" src="images/dummy/image-77.jpg" alt="">
+                            </div>
+                            <div class="categcommonnews__title">
+                                <span class="tag">Pushpa 2</span>
+                                <div class="h3">Professor who praised Nathuram Godse appointed as dean of planning at NIT Calicut</div>
+                                <p>Shaija A, a professor at NIT Calicut, has been appointed Dean of Planning and Development, sparking widespread controversy. This follows her prior arrest and charges for praising Nathuram Godse, Mahatma Gandhi's assassin, on social media.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="categcommonnews__content">
+                        <a href="#">
+                            <div class="categcommonnews__thumb">
+                                <img width="293" height="165" src="images/dummy/image-78.jpg" alt="">
+                            </div>
+                            <div class="categcommonnews__title">
+                                <span class="tag">Pushpa 2</span>
+                                <div class="h3">Professor who praised Nathuram Godse appointed as dean of planning at NIT Calicut</div>
+                                <p>Shaija A, a professor at NIT Calicut, has been appointed Dean of Planning and Development, sparking widespread controversy. This follows her prior arrest and charges for praising Nathuram Godse, Mahatma Gandhi's assassin, on social media.</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="rightSide_Col">
+                <div class="adBody"></div>
+                <div class="rhslatestnews__grid">
+                    <div class="heading">
+                        <h2 class="h2"><a href="#">Latest News</a></h2>
+                        <a href="#" class="view-more">see all <svg><use href="#arrow-right"></use></svg></a>    
+                    </div>
+                    <div class="rhslatestnews__content">
+                        <a href="#">
+                            <div class="rhslatestnews__thumb">
+                                <img width="133" height="75" src="images/dummy/image-1.jpg" alt="">
+                            </div>
+                            <div class="rhslatestnews__title">
+                                <div class="h3">
+                                    Now BJP's mission is the Mumbai Municipal Corporation!, Preparing to implement the 'Hyderabad pattern'
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="rhslatestnews__content">
+                        <a href="#">
+                            <div class="rhslatestnews__thumb">
+                                <img width="133" height="75" src="images/dummy/image-2.jpg" alt="">
+                            </div>
+                            <div class="rhslatestnews__title">
+                                <div class="h3">
+                                    Now BJP's mission is the Mumbai Municipal Corporation!, Preparing to implement the 'Hyderabad pattern'
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="rhslatestnews__content">
+                        <a href="#">
+                            <div class="rhslatestnews__thumb">
+                                <img width="133" height="75" src="images/dummy/image-3.jpg" alt="">
+                            </div>
+                            <div class="rhslatestnews__title">
+                                <div class="h3">
+                                    Now BJP's mission is the Mumbai Municipal Corporation!, Preparing to implement the 'Hyderabad pattern'
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="rhslatestnews__content">
+                        <a href="#">
+                            <div class="rhslatestnews__thumb">
+                                <img width="133" height="75" src="images/dummy/image-4.jpg" alt="">
+                            </div>
+                            <div class="rhslatestnews__title">
+                                <div class="h3">
+                                    Now BJP's mission is the Mumbai Municipal Corporation!, Preparing to implement the 'Hyderabad pattern'
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="rhslatestnews__content">
+                        <a href="#">
+                            <div class="rhslatestnews__thumb">
+                                <img width="133" height="75" src="images/dummy/image-1.jpg" alt="">
+                            </div>
+                            <div class="rhslatestnews__title">
+                                <div class="h3">
+                                    Now BJP's mission is the Mumbai Municipal Corporation!, Preparing to implement the 'Hyderabad pattern'
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="rhslatestnews__content">
+                        <a href="#">
+                            <div class="rhslatestnews__thumb">
+                                <img width="133" height="75" src="images/dummy/image-2.jpg" alt="">
+                            </div>
+                            <div class="rhslatestnews__title">
+                                <div class="h3">
+                                    Now BJP's mission is the Mumbai Municipal Corporation!, Preparing to implement the 'Hyderabad pattern'
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="rhslatestnews__content">
+                        <a href="#">
+                            <div class="rhslatestnews__thumb">
+                                <img width="133" height="75" src="images/dummy/image-3.jpg" alt="">
+                            </div>
+                            <div class="rhslatestnews__title">
+                                <div class="h3">
+                                    Now BJP's mission is the Mumbai Municipal Corporation!, Preparing to implement the 'Hyderabad pattern'
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="rhslatestnews__content">
+                        <a href="#">
+                            <div class="rhslatestnews__thumb">
+                                <img width="133" height="75" src="images/dummy/image-4.jpg" alt="">
+                            </div>
+                            <div class="rhslatestnews__title">
+                                <div class="h3">
+                                    Now BJP's mission is the Mumbai Municipal Corporation!, Preparing to implement the 'Hyderabad pattern'
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- main code ends here -->
+
+    <!-- footer code starts here -->
+    <footer class="footer">
+        <div class="container">
+            <div class="copyright">Copyright &copy; Dynamite News All rights reserved.</div>
+            <div class="footer-links">
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+    <!-- footer code ends here -->
+
+    <!-- icons list starts here -->
+    <svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+        <symbol id="bell-icon" viewBox="0 0 24 25">
+            <mask id="mask0_174_2990" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="25">
+                <rect y="0.5" width="24" height="24" fill="#D9D9D9"/>
+            </mask>
+            <g mask="url(#mask0_174_2990)">
+                <path d="M12 22.5C11.45 22.5 10.9792 22.3042 10.5875 21.9125C10.1958 21.5208 10 21.05 10 20.5H14C14 21.05 13.8042 21.5208 13.4125 21.9125C13.0208 22.3042 12.55 22.5 12 22.5ZM4 19.5V17.5H6V10.5C6 9.11667 6.41667 7.8875 7.25 6.8125C8.08333 5.7375 9.16667 5.03333 10.5 4.7V4C10.5 3.58333 10.6458 3.22917 10.9375 2.9375C11.2292 2.64583 11.5833 2.5 12 2.5C12.4167 2.5 12.7708 2.64583 13.0625 2.9375C13.3542 3.22917 13.5 3.58333 13.5 4V4.325C13.3167 4.69167 13.1833 5.06667 13.1 5.45C13.0167 5.83333 12.9833 6.225 13 6.625C12.8333 6.59167 12.6708 6.5625 12.5125 6.5375C12.3542 6.5125 12.1833 6.5 12 6.5C10.9 6.5 9.95833 6.89167 9.175 7.675C8.39167 8.45833 8 9.4 8 10.5V17.5H16V11.075C16.3 11.2083 16.6208 11.3125 16.9625 11.3875C17.3042 11.4625 17.65 11.5 18 11.5V17.5H20V19.5H4ZM18 9.5C17.1667 9.5 16.4583 9.20833 15.875 8.625C15.2917 8.04167 15 7.33333 15 6.5C15 5.66667 15.2917 4.95833 15.875 4.375C16.4583 3.79167 17.1667 3.5 18 3.5C18.8333 3.5 19.5417 3.79167 20.125 4.375C20.7083 4.95833 21 5.66667 21 6.5C21 7.33333 20.7083 8.04167 20.125 8.625C19.5417 9.20833 18.8333 9.5 18 9.5Z" fill="white"/>
+            </g>
+        </symbol>
+        <symbol id="search-icon" viewBox="0 0 24 25">
+            <mask id="mask0_174_2993" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="25">
+                <rect y="0.5" width="24" height="24" fill="#D9D9D9"/>
+            </mask>
+            <g mask="url(#mask0_174_2993)">
+                <path d="M19.6 21.5L13.3 15.2C12.8 15.6 12.225 15.9167 11.575 16.15C10.925 16.3833 10.2333 16.5 9.5 16.5C7.68333 16.5 6.14583 15.8708 4.8875 14.6125C3.62917 13.3542 3 11.8167 3 10C3 8.18333 3.62917 6.64583 4.8875 5.3875C6.14583 4.12917 7.68333 3.5 9.5 3.5C11.3167 3.5 12.8542 4.12917 14.1125 5.3875C15.3708 6.64583 16 8.18333 16 10C16 10.7333 15.8833 11.425 15.65 12.075C15.4167 12.725 15.1 13.3 14.7 13.8L21 20.1L19.6 21.5ZM9.5 14.5C10.75 14.5 11.8125 14.0625 12.6875 13.1875C13.5625 12.3125 14 11.25 14 10C14 8.75 13.5625 7.6875 12.6875 6.8125C11.8125 5.9375 10.75 5.5 9.5 5.5C8.25 5.5 7.1875 5.9375 6.3125 6.8125C5.4375 7.6875 5 8.75 5 10C5 11.25 5.4375 12.3125 6.3125 13.1875C7.1875 14.0625 8.25 14.5 9.5 14.5Z" fill="white"/>
+            </g>
+        </symbol>
+        <symbol id="wh-icon" viewBox="0 0 26 26">
+            <path d="M13.1583 0.0121689C16.6642 0.0121689 19.8409 1.42982 22.1316 3.73279C24.4352 6.02353 25.8522 9.20023 25.8522 12.7061C25.8522 16.212 24.4346 19.3887 22.1316 21.6917C19.8409 23.9824 16.6642 25.4001 13.1583 25.4001C9.65242 25.4001 6.47572 23.9824 4.17276 21.6917C1.88201 19.3881 0.464355 16.2113 0.464355 12.7061C0.464355 9.20088 1.88201 6.02353 4.17276 3.73279C6.46351 1.44204 9.65307 0.0121689 13.1583 0.0121689ZM21.6758 4.18862C19.4988 1.99881 16.4867 0.657666 13.1583 0.657666C9.82987 0.657666 6.81776 1.99945 4.62795 4.18862C2.451 6.36557 1.09699 9.37768 1.09699 12.7061C1.09699 16.0345 2.451 19.0467 4.62795 21.2365C6.81711 23.4134 9.82987 24.7674 13.1583 24.7674C16.4867 24.7674 19.4988 23.4134 21.6758 21.2365C23.8656 19.0467 25.2067 16.0345 25.2067 12.7061C25.2067 9.37768 23.865 6.36557 21.6758 4.18862Z"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.53897 18.389L9.58952 18.2115L10.2222 18.0977C11.1081 18.5786 12.0828 18.8442 13.1584 18.8442C16.5376 18.8442 19.2964 16.0854 19.2964 12.6933C19.2964 9.30119 16.5376 6.55525 13.1584 6.55525C9.77918 6.55525 7.02038 9.31405 7.02038 12.6933C7.02038 13.9335 7.3875 15.047 7.9822 16.0088L7.90633 16.5656L7.76682 17.6792L7.65303 18.54L8.53897 18.3883V18.389ZM13.1584 5.36584C17.2082 5.36584 20.4865 8.64348 20.4865 12.6939C20.4865 16.7444 17.2088 20.0342 13.1584 20.0342C12.0449 20.0342 10.9943 19.8066 10.0704 19.3636L6.15951 20.0342L6.67835 16.1612L6.64042 16.0854C6.12157 15.0856 5.83032 13.9341 5.83032 12.6933C5.83032 8.64348 9.09575 5.3652 13.1584 5.3652V5.36584ZM10.5513 9.35262C10.9564 9.0871 11.2219 9.27676 11.3743 9.6818L11.7414 10.6565C11.7414 10.6565 12.0069 11.1753 11.3363 11.6942C11.2605 11.7447 11.2352 11.8333 11.2605 11.9597C11.4122 12.4027 12.0069 13.7445 13.9055 14.7821C14.0829 14.8959 14.1209 14.8959 14.3105 14.7442C14.4623 14.5925 14.6397 14.415 14.7914 14.2633C15.1328 13.9598 15.3103 13.8583 15.6144 14.0736C15.842 14.2254 16.0574 14.4157 16.285 14.5545C16.5003 14.7442 16.8797 14.9725 16.5003 15.4154L16.1712 15.8205C15.6903 16.4152 15.2723 16.4531 14.6397 16.3142C12.2223 15.6816 10.4382 13.9605 9.65317 11.5431C9.39986 10.6192 9.76697 9.83482 10.552 9.35327L10.5513 9.35262Z"/>
+        </symbol>
+        <symbol id="fb-icon" viewBox="0 0 27 26">
+            <path d="M13.3906 -7.62939e-06C16.8965 -7.62939e-06 20.0604 1.42986 22.364 3.72061C24.6676 6.02422 26.0846 9.20092 26.0846 12.7062C26.0846 16.2114 24.6669 19.3759 22.364 21.6795C20.0604 23.9831 16.8965 25.4001 13.3906 25.4001C9.88476 25.4001 6.70806 23.9824 4.4051 21.6795C2.11371 19.3765 0.683838 16.2127 0.683838 12.7068C0.683838 9.20092 2.11371 6.02422 4.40445 3.72061C6.70806 1.42986 9.88476 -7.62939e-06 13.3906 -7.62939e-06ZM21.9081 4.17644C19.7312 1.99949 16.7191 0.645491 13.3906 0.645491C10.0622 0.645491 7.03724 1.99949 4.86029 4.17644C2.68334 6.35339 1.32934 9.37836 1.32934 12.7068C1.32934 16.0352 2.68334 19.0473 4.86029 21.2243C7.03724 23.4012 10.0622 24.7552 13.3906 24.7552C16.7191 24.7552 19.7312 23.4012 21.9081 21.2243C24.0851 19.0473 25.4391 16.0352 25.4391 12.7068C25.4391 9.37836 24.0851 6.35339 21.9081 4.17644Z"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M11.6818 21.4519H14.8456V14.1617H17.1743L17.6424 11.2126H14.8456V8.9849C14.8456 8.16196 15.63 7.69391 16.3899 7.69391H17.7439V5.25143L15.3015 5.13763C12.9728 4.99811 11.6818 6.83367 11.6818 9.02283V11.2126H9.02393V14.1617H11.6818V21.4519Z"/>
+        </symbol>
+        <symbol id="insta-icon" viewBox="0 0 27 26">
+            <path d="M13.6104 -7.62939e-06C17.1163 -7.62939e-06 20.293 1.42986 22.596 3.72061C24.8867 6.02422 26.3166 9.20092 26.3166 12.7062C26.3166 16.2114 24.8867 19.3759 22.596 21.6795C20.2924 23.9831 17.1157 25.4001 13.6104 25.4001C10.1052 25.4001 6.92787 23.9824 4.63712 21.6795C2.33351 19.3759 0.916504 16.212 0.916504 12.7062C0.916504 9.20027 2.33416 6.02357 4.63712 3.72061C6.92851 1.42986 10.1046 -7.62939e-06 13.6104 -7.62939e-06ZM22.1408 4.17644C19.951 1.99949 16.9389 0.645491 13.6104 0.645491C10.282 0.645491 7.26991 1.99949 5.09296 4.17644C2.90379 6.35339 1.562 9.37836 1.562 12.7068C1.562 16.0352 2.90379 19.0473 5.09296 21.2243C7.26991 23.4012 10.282 24.7552 13.6104 24.7552C16.9389 24.7552 19.951 23.4012 22.1408 21.2243C24.3177 19.0473 25.6718 16.0352 25.6718 12.7068C25.6718 9.37836 24.3177 6.35339 22.1408 4.17644Z"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M10.244 6.59386H16.9896C18.5082 6.59386 19.7484 7.83406 19.7484 9.35265V16.0603C19.7484 17.5789 18.5082 18.8191 16.9896 18.8191H10.244C8.72545 18.8191 7.49747 17.5789 7.49747 16.0603V9.35265C7.49747 7.83406 8.72481 6.59386 10.244 6.59386ZM13.6104 10.0618H13.6355C15.0911 10.0618 16.2933 11.2641 16.2933 12.7068C16.2933 14.1875 15.0911 15.3897 13.6355 15.3897H13.6104C12.1548 15.3897 10.9526 14.1875 10.9526 12.7068C10.9526 11.2641 12.1548 10.0618 13.6104 10.0618ZM13.6104 8.68208H13.6355C15.8253 8.68208 17.6602 10.517 17.6602 12.7068C17.6602 14.9345 15.8253 16.7315 13.6355 16.7315H13.6104C11.4084 16.7315 9.61141 14.9345 9.61141 12.7068C9.61141 10.517 11.4084 8.68208 13.6104 8.68208ZM17.5972 7.90993C18.053 7.90993 18.4452 8.2899 18.4452 8.75795C18.4452 9.21378 18.053 9.60597 17.5972 9.60597C17.1034 9.60597 16.7492 9.21378 16.7492 8.75795C16.7492 8.2899 17.1034 7.90993 17.5972 7.90993ZM10.219 5.32793H17.0282C19.218 5.32793 21.0272 7.12491 21.0272 9.31472V16.0982C21.0272 18.288 19.2174 20.085 17.0282 20.085H10.219C8.02916 20.085 6.21997 18.288 6.21997 16.0982V9.31472C6.21997 7.12491 8.02981 5.32793 10.219 5.32793Z"/>
+        </symbol>
+        <symbol id="x-icon" viewBox="0 0 26 26">
+            <path d="M12.8419 -7.62939e-06C16.3478 -7.62939e-06 19.5245 1.42986 21.8152 3.72061C24.1188 6.02422 25.5358 9.20092 25.5358 12.7062C25.5358 16.2114 24.1182 19.3759 21.8152 21.6795C19.5245 23.9831 16.3478 25.4001 12.8419 25.4001C9.33602 25.4001 6.15932 23.9824 3.85635 21.6795C1.56561 19.3759 0.147949 16.212 0.147949 12.7062C0.147949 9.20027 1.56561 6.02357 3.85635 3.72061C6.15932 1.42986 9.33602 -7.62939e-06 12.8419 -7.62939e-06ZM21.3594 4.17644C19.1824 1.99949 16.1703 0.645491 12.8419 0.645491C9.51347 0.645491 6.50135 1.99949 4.31154 4.17644C2.13459 6.35339 0.780587 9.37836 0.780587 12.7068C0.780587 16.0352 2.13459 19.0473 4.31154 21.2243C6.50071 23.4012 9.51347 24.7552 12.8419 24.7552C16.1703 24.7552 19.1824 23.4012 21.3594 21.2243C23.5492 19.0473 24.8903 16.0352 24.8903 12.7068C24.8903 9.37836 23.5486 6.35339 21.3594 4.17644Z"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M18.1318 5.55618H19.3212L14.145 11.5933L19.7899 19.8452H15.6765L11.8543 14.264L7.07027 19.8452H5.89307L11.3354 13.4918L5.90593 5.55618H10.0194L13.6262 10.8211L18.1318 5.55618ZM7.58911 6.46721H9.44974L18.1068 18.9336H16.2461L7.58911 6.46721Z"/>
+        </symbol>
+        <symbol id="yt-icon" viewBox="0 0 26 26">
+            <path d="M13.0745 0.0121994C16.5804 0.0121994 19.7442 1.42985 22.0478 3.73282C24.3514 6.02356 25.7684 9.20026 25.7684 12.7061C25.7684 16.212 24.3508 19.3887 22.0478 21.6917C19.7442 23.9824 16.5804 25.4001 13.0745 25.4001C9.5686 25.4001 6.3919 23.9824 4.08894 21.6917C1.79754 19.3887 0.367676 16.212 0.367676 12.7061C0.367676 9.20026 1.79754 6.02356 4.08829 3.73282C6.37904 1.44207 9.5686 0.0121994 13.0738 0.0121994H13.0745ZM21.592 4.18865C19.415 1.99884 16.4029 0.657696 13.0745 0.657696C9.74605 0.657696 6.72108 1.99948 4.54413 4.18865C2.36718 6.3656 1.01317 9.37771 1.01317 12.7061C1.01317 16.0346 2.36718 19.0467 4.54413 21.2365C6.72108 23.4134 9.74605 24.7674 13.0745 24.7674C16.4029 24.7674 19.415 23.4134 21.592 21.2365C23.7689 19.0467 25.1229 16.0346 25.1229 12.7061C25.1229 9.37771 23.7689 6.3656 21.592 4.18865Z"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.79642 7.79547C10.1884 7.68167 11.8214 7.63088 13.0745 7.63088C14.3147 7.63088 15.922 7.68167 17.3396 7.79547C18.9849 7.93499 19.8078 8.21337 20.0354 9.84577C20.1492 10.6051 20.2 11.6305 20.2 12.6804C20.2 13.731 20.1492 14.7937 20.0354 15.5151C19.8078 17.1732 18.9849 17.4259 17.3396 17.5654C15.922 17.7049 14.3147 17.73 13.0745 17.73C11.8214 17.73 10.189 17.7049 8.79642 17.5654C7.16403 17.4259 6.30315 17.1732 6.07555 15.5151C5.98683 14.7937 5.93604 13.7303 5.93604 12.6804C5.93604 11.6299 5.98683 10.6051 6.07555 9.84577C6.30315 8.21337 7.16403 7.93499 8.79642 7.79547Z"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M11.6316 10.5421L15.3393 12.6811L11.6316 14.8452V10.5421Z" fill="#151D26"/>
+        </symbol>
+        <symbol id="yt-icon-gscale" viewBox="0 0 26 26">
+            <path d="M13.0745 0.0121994C16.5804 0.0121994 19.7442 1.42985 22.0478 3.73282C24.3514 6.02356 25.7684 9.20026 25.7684 12.7061C25.7684 16.212 24.3508 19.3887 22.0478 21.6917C19.7442 23.9824 16.5804 25.4001 13.0745 25.4001C9.5686 25.4001 6.3919 23.9824 4.08894 21.6917C1.79754 19.3887 0.367676 16.212 0.367676 12.7061C0.367676 9.20026 1.79754 6.02356 4.08829 3.73282C6.37904 1.44207 9.5686 0.0121994 13.0738 0.0121994H13.0745ZM21.592 4.18865C19.415 1.99884 16.4029 0.657696 13.0745 0.657696C9.74605 0.657696 6.72108 1.99948 4.54413 4.18865C2.36718 6.3656 1.01317 9.37771 1.01317 12.7061C1.01317 16.0346 2.36718 19.0467 4.54413 21.2365C6.72108 23.4134 9.74605 24.7674 13.0745 24.7674C16.4029 24.7674 19.415 23.4134 21.592 21.2365C23.7689 19.0467 25.1229 16.0346 25.1229 12.7061C25.1229 9.37771 23.7689 6.3656 21.592 4.18865Z"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.79642 7.79547C10.1884 7.68167 11.8214 7.63088 13.0745 7.63088C14.3147 7.63088 15.922 7.68167 17.3396 7.79547C18.9849 7.93499 19.8078 8.21337 20.0354 9.84577C20.1492 10.6051 20.2 11.6305 20.2 12.6804C20.2 13.731 20.1492 14.7937 20.0354 15.5151C19.8078 17.1732 18.9849 17.4259 17.3396 17.5654C15.922 17.7049 14.3147 17.73 13.0745 17.73C11.8214 17.73 10.189 17.7049 8.79642 17.5654C7.16403 17.4259 6.30315 17.1732 6.07555 15.5151C5.98683 14.7937 5.93604 13.7303 5.93604 12.6804C5.93604 11.6299 5.98683 10.6051 6.07555 9.84577C6.30315 8.21337 7.16403 7.93499 8.79642 7.79547Z"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M11.6316 10.5421L15.3393 12.6811L11.6316 14.8452V10.5421Z" fill="#fff"/>
+        </symbol>
+        <symbol id="teleg-icon" viewBox="0 0 26 26">
+            <path d="M13.294 0.0121994C16.7999 0.0121994 19.9766 1.42985 22.2796 3.73282C24.5703 6.02356 26.0002 9.20026 26.0002 12.7061C26.0002 16.212 24.5703 19.3887 22.2796 21.6917C19.976 23.9824 16.7993 25.4001 13.294 25.4001C9.78881 25.4001 6.61146 23.9824 4.32071 21.6917C2.01711 19.3881 0.600098 16.2114 0.600098 12.7061C0.600098 9.20091 2.01775 6.02356 4.32071 3.73282C6.61146 1.42921 9.78816 0.0121994 13.294 0.0121994ZM21.8244 4.18865C19.6346 1.99884 16.6225 0.657696 13.294 0.657696C9.96561 0.657696 6.9535 1.99948 4.77655 4.18865C2.58739 6.3656 1.2456 9.37771 1.2456 12.7061C1.2456 16.0346 2.58739 19.0467 4.77655 21.2365C6.9535 23.4134 9.96561 24.7674 13.294 24.7674C16.6225 24.7674 19.6346 23.4134 21.8244 21.2365C24.0013 19.0467 25.3554 16.0346 25.3554 12.7061C25.3554 9.37771 24.0013 6.3656 21.8244 4.18865Z"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M6.40946 12.4149C9.59902 11.0731 13.4591 9.17518 16.7998 7.88419C19.8878 6.75778 19.8248 7.06124 19.3689 10.1499C19.0018 12.6181 18.5968 15.0856 18.1795 17.5538C18.0278 18.731 17.4202 19.3508 16.1292 18.6294L12.1174 15.807C11.5477 15.3389 11.7123 14.984 12.1681 14.516L15.8766 11.023C16.8512 10.0483 16.3825 9.69402 15.2561 10.4533L10.1687 13.9084C9.44729 14.4144 8.67513 14.4144 7.85283 14.1617L6.106 13.5413C4.96673 13.1363 5.84047 12.6682 6.40946 12.4149Z"/>
+        </symbol>
+        <symbol id="arrow-right" viewBox="0 0 6 10">
+            <path d="M0.5 10V0L5.5 5L0.5 10Z" />
+        </symbol>
+        <symbol viewBox="0 0 23 26" id="play-icon">
+            <path d="M23 13L0.499999 25.9904L0.5 0.00961778L23 13Z" fill="white"/>
+        </symbol>
+        <symbol viewBox="0 0 37 37" id="photo-icon">
+            <rect width="37" height="37" rx="18.5" fill="white" fill-opacity="0.74"/>
+            <path d="M25.2352 14.8992V11H9V24.1008H12.7648V28H29V14.8992H25.2352ZM10.8823 22.1518L10.8825 12.9496H23.353V14.8993H12.7649V22.1518L10.8823 22.1518ZM27.1176 26.051H14.647L14.6472 16.8489H27.1177L27.1176 26.051Z" fill="#306FBE"/>
+        </symbol>
+        <symbol id="menu-icon" viewBox="0 0 24 25">
+            <mask id="mask0_46_142" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="25">
+                <rect y="0.811127" width="24" height="24"/>
+            </mask>
+            <g mask="url(#mask0_46_142)">
+                <path d="M3.5 18.4456V16.9459H20.5V18.4456H3.5ZM3.5 13.5611V12.0611H20.5V13.5611H3.5ZM3.5 8.67639V7.17664H20.5V8.67639H3.5Z"/>
+            </g>
+        </symbol>
+        <symbol viewBox="0 0 25 24" id="close-icon">
+            <path d="M18.5 6L6.5 18" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M6.5 6L18.5 18" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        </symbol>
+    </svg>
+    <!-- icons list ends here -->
+</body>
+</html>
