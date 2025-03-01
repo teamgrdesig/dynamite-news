@@ -225,7 +225,7 @@
     .relatednewswidget__grid{display: flex;flex-wrap: nowrap;overflow-x: auto;-webkit-overflow-scrolling: touch;margin-right:-10px;gap:10px}
     .relatednewswidget__grid::-webkit-scrollbar{display:none;}
     .relatednewswidget__content{flex: 0 0 auto;width: 65%;}
-    .relatednewswidget__content:last-child{margin-right:10px;}
+    .relatednewswidget__content:nth-last-child(1){margin-right:10px;}
     .photogalcateg__grid{grid-template-columns: repeat(2, 1fr);gap:10px;margin-bottom:20px;padding-bottom:20px;}
     .categbignews__grid{margin: 0 -10px 20px -10px;padding: 10px;}
     .categbignews__grid a{grid-template-columns: 1fr;gap:10px}
