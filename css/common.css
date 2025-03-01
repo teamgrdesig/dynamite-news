@@ -26,7 +26,7 @@ img{height:inherit;max-width:100%;}
 .header_navbar__bottom .container{display:flex;justify-content:space-between;align-items:center;height: 49px;}
 .header_navbar__bottom .social_links ul{display:flex;justify-content: space-between;align-items:center;width:197px;}
 .header_navbar__bottom .social_links li{list-style:none;width:26px;height:26px}
-.header_navbar__bottom .social_links svg{display: block;width: 26px;height: 26px}
+.header_navbar__bottom .social_links svg{display: block;width: 26px;height: 26px;fill:#fff;}
 .header_navbar__bottom .trending_navbar{display:flex;align-items:center;justify-content: center;width: calc(100% - 210px);}
 .header_navbar__bottom .trending_navbar a{position: relative;color:#fff;font-size:16px;font-weight:300;margin-right: 15px;display: flex;align-items: center;}
 .header_navbar__bottom .trending_navbar a:last-child{margin-right: 0;}
