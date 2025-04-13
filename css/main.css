@@ -9,7 +9,7 @@
 .homepagetopnews__left .smallnews_wrapper__content:last-child{border-bottom:none}
 .homepagetopnews__left .smallnews_wrapper__content a{display:grid;grid-template-columns:133px 1fr;gap:15px}
 .homepagetopnews__left .smallnews_wrapper__thumb img{display:block;width:100%;aspect-ratio:16/9}
-.homepagetopnews__left .smallnews_wrapper__title .h3{font-size:16px;line-height:22px;font-weight:300;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical}
+.homepagetopnews__left .smallnews_wrapper__title .h3{font-size:16px;line-height:22px;font-weight:300;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:4;line-clamp:4;-webkit-box-orient:vertical;box-orient:vertical}
 .homepagetopnews__left,.homepagetopnews__mid,.homepagetopnews__right{position:relative;border-bottom:solid .5px #6c7073}
 .homepagetopnews__left::after,.homepagetopnews__left::before,.homepagetopnews__mid::after,.homepagetopnews__mid::before,.homepagetopnews__right::after,.homepagetopnews__right::before{content:"";position:absolute;left:0;width:100%;border-bottom:.5px solid #6c7073}
 .homepagetopnews__left::after,.homepagetopnews__mid::after,.homepagetopnews__right::after{bottom:2px}
