@@ -176,6 +176,27 @@
 .authordetails__title .designation{font-size:16px;line-height:23px;font-weight:300;margin-bottom:10px}
 .authordetails__title .social_links{display:flex;align-items:center;justify-content:flex-start}
 .authordetails__title .social_links svg{width:28px;height:28px;display:block;margin-right:10px}
+.theme-dark body{background-color:#20252b}
+.theme-dark .breadcrumb li,.theme-dark .breadcrumb li a{color:#fff}
+.theme-dark .breadcrumb li::after{color:#fff}
+.theme-dark .detailPage_Wrapper .article_title{color:#fff}
+.theme-dark .detailPage_Wrapper p{color:#ffff}
+.theme-dark .detailPage_Wrapper .author_wrap .author_info .author_name a{color:#fff}
+.theme-dark .detailPage_Wrapper .author_wrap .author_info .published_time{color:#fff}
+.theme-dark .detailPage_Wrapper .author_wrap .article_share svg{fill:#fff}
+.theme-dark .heading .h2,.theme-dark .heading .h2 a{color:#fff}
+.theme-dark .heading .view-more{color:#fff}
+.theme-dark .heading .view-more svg{fill:#fff}
+.theme-dark .rhslatestnews__grid .rhslatestnews__title .h3{color:#fff}
+.detailPage_Wrapper .photo_wrap figure{position:relative;background-color:#151d26;margin-bottom:1.88rem}
+.detailPage_Wrapper .photo_wrap .photoCount{background-color:rgba(32,37,43,.86);border-radius:3px;color:#fff;font-size:31px;line-height:50px;font-weight:600;padding:0 10px;position:absolute;top:15px;left:15px;display:inline-block;height:50px;display:flex;justify-content:center;align-items:center}
+.detailPage_Wrapper .photo_wrap .zoom-icon{position:absolute;top:15px;right:15px;display:inline-block;background-color:rgba(32,37,43,.86);border-radius:3px;width:55px;height:50px;display:flex;justify-content:center;align-items:center;cursor:pointer}
+.detailPage_Wrapper .photo_wrap .zoom-icon svg{width:38px;height:38px;display:block}
+.detailPage_Wrapper .photo_wrap figure img{display:block}
+.detailPage_Wrapper .photo_wrap .photo-gallery-single-desc{padding:15px;display:grid;grid-template-columns:1fr 40px;gap:20px}
+.detailPage_Wrapper .photo_wrap .photo-gallery-single-desc .h3{font-size:20px;font-weight:400;color:#fff;margin-bottom:10px}
+.detailPage_Wrapper .photo_wrap .photo-gallery-single-desc p{font-size:16px;line-height:23px;font-weight:300;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;color:#fff}
+.detailPage_Wrapper .photo_wrap .photo-gallery-single-desc .share_icon svg{display:inline-block;width:40px;height:40px;fill:#fff;cursor:pointer}
 @media(max-width:768px){
 .homepagetopnews__grid{grid-template-columns:1fr;gap:0}
 .homepagetopnews__left,.homepagetopnews__mid{border-bottom:none}
