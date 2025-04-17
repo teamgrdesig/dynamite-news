@@ -6,7 +6,7 @@ function handleSidebarMenu() {
     const closeNav = document.getElementById('close_nav');
 
     // Show the widget
-    toggleNav.addEventListener('click', function() {
+    toggleNav.addEventListener('click', function () {
         mainbody.style.overflow = 'hidden';
         overlay.style.display = "block";
         overlay.style.opacity = 1;
@@ -14,7 +14,7 @@ function handleSidebarMenu() {
     });
 
     // Hide the widget
-    closeNav.addEventListener('click', function() {
+    closeNav.addEventListener('click', function () {
         sidebarDiv.style.right = "-400px";
         overlay.style.display = "none";
         overlay.style.opacity = 0;
@@ -25,4 +25,22 @@ function handleSidebarMenu() {
 // Initialize the functionalities
 document.addEventListener('DOMContentLoaded', () => {
     handleSidebarMenu();
+});
+
+const scrollBtn = document.querySelector(".scrolltop");
+const btnVisibility = () => {
+    if (window.scrollY > 400) {
+        scrollBtn.style.visibility = "visible";
+    } else {
+        scrollBtn.style.visibility = "hidden";
+    }
+};
+document.addEventListener("scroll", () => {
+    btnVisibility();
+});
+scrollBtn.addEventListener("click", () => {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
 });
