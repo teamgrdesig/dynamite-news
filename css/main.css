@@ -264,5 +264,5 @@
 .authordetails__title .h2{text-align:center}
 .authordetails__title .designation{text-align:center}
 .authordetails__title .social_links svg{margin:0 5px}
-.zoom-modal img.zoom-content{max-height:max-content}
+.zoom-modal img.zoom-content{max-height:auto}
 }
