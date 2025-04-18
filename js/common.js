@@ -27,20 +27,22 @@ document.addEventListener('DOMContentLoaded', () => {
     handleSidebarMenu();
 });
 
-const scrollBtn = document.querySelector(".scrolltop");
-const btnVisibility = () => {
-    if (window.scrollY > 400) {
-        scrollBtn.style.visibility = "visible";
-    } else {
-        scrollBtn.style.visibility = "hidden";
-    }
-};
-document.addEventListener("scroll", () => {
-    btnVisibility();
-});
-scrollBtn.addEventListener("click", () => {
-    window.scrollTo({
-        top: 0,
-        behavior: "smooth"
+if (window.innerWidth <= 768) {
+    const scrollBtn = document.querySelector(".scrolltop");
+    const btnVisibility = () => {
+        if (window.scrollY > 400) {
+            scrollBtn.style.visibility = "visible";
+        } else {
+            scrollBtn.style.visibility = "hidden";
+        }
+    };
+    document.addEventListener("scroll", () => {
+        btnVisibility();
     });
-});
+    scrollBtn.addEventListener("click", () => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    });
+}
