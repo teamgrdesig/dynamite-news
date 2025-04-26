@@ -12,13 +12,13 @@ img{height:inherit;max-width:100%}
 .header_main__logo img{width:100px;display:block;margin-right:20px}
 .header_main__nav{display:flex;align-items:center}
 .header_main__nav ul{display:flex;align-items:center}
-.header_main__nav ul li{list-style:none;margin-right:10px;padding-right:10px;border-right:1px solid #fff;line-height:1;}
+.header_main__nav ul li{list-style:none;margin-right:10px;padding-right:10px;border-right:1px solid #fff;line-height:1}
 .header_main__nav ul li:last-child{border-right:none;margin-right:0;padding-right:0}
 .header_main__nav ul li a{color:#fff;font-size:16px;font-weight:300}
 .header_main__rhs{display:flex;align-items:center}
-.header_main__langselect{position:relative;display:flex;align-items:center;width:100px;height:29px;background-color:#fff;overflow:hidden;padding:0 .5rem}
-.header_main__langselect::after{content:'';width:0;height:0;border-left:5px solid transparent;border-right:5px solid transparent;border-top:5px solid #1c1b1f}
-.header_main__langselect select{-webkit-appearance:none;-moz-appearance:none;-ms-appearance:none;appearance:none;outline:0;box-shadow:none;border:0;background:#fff;background-image:none;flex:1;color:#151d26;cursor:pointer;font-size:13px;line-height:17px}
+.header_main__langselect{position:relative;display:flex;align-items:center;width:100px;height:29px;background-color:#fff;overflow:hidden}
+.header_main__langselect::after{content:'';width:0;height:0;border-left:5px solid transparent;border-right:5px solid transparent;border-top:5px solid #1c1b1f;position:absolute;right:5px;cursor:pointer}
+.header_main__langselect select{-webkit-appearance:none;-moz-appearance:none;-ms-appearance:none;appearance:none;outline:0;box-shadow:none;border:0;background:#fff;background-image:none;flex:1;color:#151d26;cursor:pointer;font-size:13px;line-height:17px;padding:0 .5rem}
 .header_main__langselect select::-ms-expand{display:none}
 .header_main__notifications .bell_icon{width:24px;height:24px;display:block;margin-left:15px}
 .header_main__search .search_icon{width:24px;height:24px;display:block;margin-left:15px;cursor:pointer}
